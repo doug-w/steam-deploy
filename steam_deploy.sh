@@ -194,4 +194,4 @@ steamcmd +login "$steam_username" +run_app_build "$manifest_path" +quit || (
     exit 1
   )
 
-echo "manifest=${manifest_path}" >> $GITHUB_OUTPUT
+echo "manifest=${manifest_path}"
